@@ -49,22 +49,29 @@ Not applicable.
 
    DataSet
 
-   a. Predict the no of comments in next H hrs
-   b. Use regression technique
-   
-   Answer:
-   #Answers
-#a) & b)
+a. Predict the no of comments in next H hrs
+
+Answer:
 #reading the dataset and viewing
 
-slr1<- slr
-View(slr1)
+> slr1<- slr
+> View(slr1)
+> dim(slr1)
+[1] 12  3
+> 
 
 #features
 
-dim(slr1)
-str(slr1)
+> dim(slr1)
+[1] 12  3
+> str(slr1)
+'data.frame':	12 obs. of  3 variables:
+ $ Observation.no: int  1 2 3 4 5 6 7 8 9 10 ...
+ $ Advt          : int  92 94 97 98 100 102 104 105 105 107 ...
+ $ Sales         : int  930 900 1020 990 1100 1050 1150 1120 1130 1200 ...
+> 
 
+install.packages("psych")
 library(psych)
 describe(slr1)
 summary(slr1)
@@ -76,6 +83,10 @@ hist(slr1$Sales ,xlab = "sales", ylab = "Frequency",main="Histogram of sales",co
 
 plot(slr1$Advt,slr1$Sales)
 
+
+b. Use regression technique
+
+Answer:
 #***NOTE***
 #using linear regression model technique
 #using slr1 dataset
