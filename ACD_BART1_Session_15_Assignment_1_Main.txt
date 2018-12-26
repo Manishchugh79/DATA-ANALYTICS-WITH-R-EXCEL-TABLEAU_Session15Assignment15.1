@@ -81,8 +81,12 @@ summary(slr1)
 hist(slr1$Advt ,xlab = "advt", ylab = "Frequency",main="Histogram of advt",col="red")
 hist(slr1$Sales ,xlab = "sales", ylab = "Frequency",main="Histogram of sales",col="blue")
 
+path: DATA-ANALYTICS-WITH-R-EXCEL-TABLEAU_Session15Assignment15.1/15.1a-hist. of advt..png
+      DATA-ANALYTICS-WITH-R-EXCEL-TABLEAU_Session15Assignment15.1/15.1a-hist. of advt..png
+      
 plot(slr1$Advt,slr1$Sales)
-
+path: DATA-ANALYTICS-WITH-R-EXCEL-TABLEAU_Session15Assignment15.1/15.1a.png
+      
 
 b. Use regression technique
 
